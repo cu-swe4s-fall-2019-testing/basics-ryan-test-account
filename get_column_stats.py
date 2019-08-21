@@ -1,6 +1,11 @@
 import sys
 import math
 
+def get_mean(V):
+    mean = sum(V)/len(V)
+    return mean
+
+
 file_name = sys.argv[1]
 col_num = int(sys.argv[2])
 
